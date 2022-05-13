@@ -19,7 +19,6 @@ function App() {
     <div className="App">
      <Light/>
     <Navbar/>
-
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/cart' element={<Cart/>} />
